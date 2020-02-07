@@ -36,11 +36,6 @@ class TodoList extends Component {
     e.preventDefault();
 } 
 
-// deleteItem(key) {
-//     var filteredItems = this.state.items.filter(function)
-//     return (item.key !== key)
-//     });
-
 deleteItem(key){
     console.log("key in deleteItem: " + key)
     console.log("Items at Delte:" + this.state.items)
